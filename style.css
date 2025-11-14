@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+/*---------------------------Page Section---------------------------------*/
+body{
+    background-color: #000000;
+
+}
+.container{
+    background-color: rgba(71, 196, 238, 0.459);
+    width: 80%;
+    margin: 0;
+    overflow: hidden;
+    max-width: 712px;
+    margin: 0px auto;
+    padding: 0 10px;
+    
+}
+.content-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 15px 20px 15px 20px;
+    border-radius: 20px;
+    background-color: #74e0d5;
+    border: 1px solid #20a75a;
+    
+}
+.content-box:hover.content-box{
+    border: 1px solid #20a75a;
+    box-shadow: 0 0 30px 10px rgba(138, 233, 238, 0.9);
+    transition: all 0.3s ease-in-out;
+}
+
+/* -----------------------Name Card Section-----------------------------*/
+.namecard-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#img-profile{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%; /* Makes it a circle */
+    border: #4d9fde 20px solid;
+   
+}
+
+/*----------------------- Navagation Bar Section---------------------- */
+.navagation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navagation-wrapper{
+  margin: 0;
+  width: 500px;
+  height: 50px;
+  background-color: rgba(227, 227, 227, 0.5);
+  border-radius: 35px;
+  position: flex;
+  top: 20px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  -moz-backdrop-filter: blur(12px);
+  z-index: 9999;
+  align-content: center;
+}
+.navagation ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50px;
+    margin: 0 auto;
+    line-height: 30px;
+    padding-inline-start: 0px;
+}
+.navagation ul li{
+    list-style: none;
+    float: left;
+    line-height: 30px;
+    font-family:sans-serif;
+    
+    padding: 0 7px;
+    margin: 0;
+    font-weight: bold;
+    transition: all 0.2s;
+}
+.navagation ul li:hover{
+    background-color:#3bf4fd;
+    border-radius: 40px;
+    box-shadow: 0px 8px 10px rgba(73, 73, 73, 0.44);  
+}
+.navagation ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/*----------------------About Me ContentBox------------------------------*/
+
+/*--------------------Game Flower Escape ContentBox----------------------*/
+
+#game-flower-escape img{
+    width: 90%;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+
