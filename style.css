@@ -7,14 +7,24 @@ h1{
     color: rgb(255, 255, 255);
     font-family: sans-serif;
 }
+h2{
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+p{
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
 
 /*---------------------------Page Section---------------------------------*/
 body{
-    background-color: #000000;
+    background-color: #0E2148;
 
 }
 .container{
-    background-color: rgba(71, 196, 238, 0.459);
+    background-color: #483AA0;
     width: 80%;
     margin: 0;
     overflow: hidden;
@@ -30,15 +40,16 @@ body{
     flex-direction: column;
     margin-top: 30px;
     margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
     padding: 15px 20px 15px 20px;
     border-radius: 20px;
-    background-color: #74e0d5;
-    border: 1px solid #20a75a;
+    background-color: #7965C1;
+    border: 5px solid #4d9fde;
     
 }
 .content-box:hover.content-box{
-    border: 1px solid #20a75a;
-    box-shadow: 0 0 30px 10px rgba(138, 233, 238, 0.9);
+    box-shadow: 0 0 5px 5px #1b7088;
     transition: all 0.3s ease-in-out;
 }
 
@@ -113,8 +124,15 @@ body{
 /*----------------------About Me ContentBox------------------------------*/
 
 /*--------------------Game Flower Escape ContentBox----------------------*/
+#game-flower-escape{
 
-#game-flower-escape img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#img-flower-escape{
     width: 90%;
     height: auto;
     border-radius: 15px;
@@ -122,5 +140,27 @@ body{
     margin-bottom: 20px;
 }
 
+#social-logo{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 50%;
+    border: #4d9fde 5px solid;
+}
+#social-logo:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
 
+/*--------------------Contract Me ContentBox----------------------*/
 
+#contact-info{
+   
+}
+
+.social-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
